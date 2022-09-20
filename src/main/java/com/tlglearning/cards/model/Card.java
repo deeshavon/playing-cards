@@ -50,7 +50,4 @@ public class Card implements Comparable<Card> {
     return 0; // TODO: 9/16/22 Replace with comparison based on suit and rank. 
   }
 
-  // TODO: 9/13/22 Override equals method. 
-  // TODO: 9/13/22 Override hashCode method.
-
 }
