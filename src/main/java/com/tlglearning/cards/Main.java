@@ -16,10 +16,12 @@ public class Main {
     System.out.println(deck);
     deck.sort();
     System.out.println(deck);
+    deck.sort(new ColorFirst());
+    System.out.println(deck);
     // TODO: 9/19/22 Print the string representation of the deck after shuffling.
   }
 
-  private class ColorFirst implements Comparator< Card > {
+  private static class ColorFirst implements Comparator< Card > {
 
     @Override
     public int compare(Card card1, Card card2) {
