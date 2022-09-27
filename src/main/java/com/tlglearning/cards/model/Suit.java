@@ -23,4 +23,5 @@ public enum Suit {
     String name = name();
     return name.charAt(0) + name.substring(1).toLowerCase();  //this line is invoking a method, as defined in super Class
   }
+
 }
