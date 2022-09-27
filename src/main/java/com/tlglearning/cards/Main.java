@@ -21,7 +21,7 @@ public class Main {
 
 }
 
- class ColorFirst implements Comparator< Card > {
+public class ColorFirst implements Comparator< Card > {
 
   @Override
   public int compare(Card card1, Card card2) {
